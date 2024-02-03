@@ -70,6 +70,7 @@ h1 {
     border: 7px solid #1E5128;
     margin-top: 50px;
     margin-bottom: 50px;
+    transition:0.5s;
 }
 
 .bc:hover {
@@ -107,3 +108,41 @@ blockquote {
     font-size: 17px;
     line-height: 25px;
   }
+
+
+
+.footer{
+    background:#789461;
+    font-family: monospace;
+    text-align:center;
+    margin-top: 70px;
+    }
+    
+.footer .row{
+    width:100%;
+    padding-top: 40px;
+    color: #112e17;
+    font-size: 15px;
+    margin-top: 20px;
+    }
+    
+.footer .row a{
+    text-decoration:none;
+    color: #1E5128;
+    transition:0.5s;
+    font-size: 20px;
+    border: 2px solid #1a4824;
+    border-radius: 5px;
+    padding: 5px;
+    }
+    
+.footer .row a:hover{
+        background-color: #1E5128;
+        transition: all 0.3s ease-out;
+        color: white;
+    }
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
