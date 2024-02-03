@@ -1,8 +1,14 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #DBE7C9;
+}
+
 
 nav {
     background-color: #256b32;
@@ -13,6 +19,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 nav a {
@@ -24,9 +31,79 @@ nav a {
     padding: 20px;
     font-size: 20px;
     border-radius: 10px;
+    font-family: monospace;
 }
 
 nav a:hover {
     background-color: #1E5128;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-out;
 }
+
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 5rem;
+    color: #256b32;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    color: #184621aa;
+}
+
+.slogan:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #78946173;
+}
+
+.bc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px ;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 7px solid #1E5128;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bc:hover {
+    transition:all 1s ease-in-out;
+    transform:scale(1.1);
+}
+
+
+blockquote {
+    background: #1e5128;
+    border-left: 10px solid #4E9F3D;
+    padding: 10px;
+    color: black;
+    width: 85%;
+    display: block;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+ blockquote:before {
+    color: #4E9F3D;
+    content: open-quote;
+    font-size: 60px;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+    color: #ffffffce;
+    font-family: monospace;
+    font-size: 17px;
+    line-height: 25px;
+  }
