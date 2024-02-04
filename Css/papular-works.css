@@ -68,7 +68,6 @@ h1 {
     display: flex;
     padding: 10px;
     margin: 40px;
-    display: flex; 
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
@@ -135,16 +134,10 @@ blockquote {
     margin-right: auto;
     border-radius: 20px;
     padding: 15px;
-  }
-
-
-blockquote:before {
-    color: #4E9F3D;
-    content: open-quote;
-    font-size: 60px;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in;
   }
   
 blockquote p {
@@ -153,7 +146,7 @@ blockquote p {
     font-size: 19px;
   }
 
-  .mlink {
+.mlink {
     display: inline-block;
     text-decoration: none;
     font-weight: 500;
