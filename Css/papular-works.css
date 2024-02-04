@@ -41,3 +41,135 @@ nav a:hover {
 .secp {
     background-color: #1E5128;
 }
+
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 5rem;
+    color: #256b32;
+}
+
+.para {
+    text-align: center;
+    font-size: 23px;
+    font-family: monospace;
+    color: #184621aa;
+    transition:0.5s;
+}
+
+.para:hover {
+    transition: all 0.5s ease-in-out;
+    color: #256b32;
+    text-shadow: 0 0 5px #52b03f;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    margin: 40px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+.container div {
+    justify-content: center;
+    text-align: center;
+    width: 650px;
+    height: 700px;
+    box-shadow: #1E5128 0px 5px 15px;
+    border-radius: 20px;
+    transition: 0.4s ;
+}
+
+.container div:hover {
+    transition: all 0.4s ease-in-out;
+    border-top: 10px #1E5128 solid;
+    transform: scale(1.1);
+}
+
+h2 {
+    padding: 10px;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1E5128;
+    transition: 0.3s;
+}
+
+h2:hover {
+    transition: all 0.3s ease-in-out;
+    color: #256b32;
+    text-shadow: 0 0 5px #17411f86;
+}
+
+.cover {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.info {
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #112e17;
+    font-family: cursive;
+}
+
+
+blockquote {
+    background: #1e5128;
+    border-left: 10px solid #4E9F3D;
+    padding: 10px;
+    color: black;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+
+blockquote:before {
+    color: #4E9F3D;
+    content: open-quote;
+    font-size: 60px;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  
+blockquote p {
+    display: inline;
+    color: #ffffffce;
+    font-size: 19px;
+  }
+
+  .mlink {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border-radius: 20px;
+    background-color: #30783e;
+    transition: 0.s;
+}
+
+.mlink:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 3px #30783e;
+  }
